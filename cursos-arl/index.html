@@ -57,12 +57,12 @@
                 <h1>Conoce nuestros</h1>
                 <a class="seccion-2-otros-cursos-btn"><span>Ver todos los cursos</span> <div></div></a>
             </div>
-            <div id="seccion-2-wrap" items="8">
-                <div id="seccion-2-wraper">
+            <div id="seccion-2-wrap" items="0" ancho="0" page="1" seccion="0">
+                <div id="seccion-2-wrapper" style="left: 0px;">
                     <div class="seccion-2-item">
                         <a href="#" class="seccion-2-item-content">
                             <div>
-                                <span>Curso</span>
+                                <span>Curso 1</span>
                                 <img src="images/course-teacher-photo.png" />
                             </div>
                             <h6>Por: Daniel Hernandez</h6>
@@ -74,7 +74,7 @@
                     <div class="seccion-2-item">
                         <a href="#" class="seccion-2-item-content">
                             <div>
-                                <span>Curso</span>
+                                <span>Curso 2</span>
                                 <img src="images/course-teacher-photo.png" />
                             </div>
                             <h6>Por: Daniel Hernandez</h6>
@@ -86,7 +86,7 @@
                     <div class="seccion-2-item">
                         <a href="#" class="seccion-2-item-content">
                             <div>
-                                <span>Curso</span>
+                                <span>Curso 3</span>
                                 <img src="images/course-teacher-photo.png" />
                             </div>
                             <h6>Por: Daniel Hernandez</h6>
@@ -98,7 +98,7 @@
                     <div class="seccion-2-item">
                         <a href="#" class="seccion-2-item-content">
                             <div>
-                                <span>Curso</span>
+                                <span>Curso 4</span>
                                 <img src="images/course-teacher-photo.png" />
                             </div>
                             <h6>Por: Daniel Hernandez</h6>
@@ -112,7 +112,7 @@
                     <div class="seccion-2-item">
                         <a href="#" class="seccion-2-item-content">
                             <div>
-                                <span>Curso</span>
+                                <span>Curso 5</span>
                                 <img src="images/course-teacher-photo.png" />
                             </div>
                             <h6>Por: Daniel Hernandez</h6>
@@ -124,7 +124,7 @@
                     <div class="seccion-2-item">
                         <a href="#" class="seccion-2-item-content">
                             <div>
-                                <span>Curso</span>
+                                <span>Curso 6</span>
                                 <img src="images/course-teacher-photo.png" />
                             </div>
                             <h6>Por: Daniel Hernandez</h6>
@@ -136,7 +136,7 @@
                     <div class="seccion-2-item">
                         <a href="#" class="seccion-2-item-content">
                             <div>
-                                <span>Curso</span>
+                                <span>Curso 7</span>
                                 <img src="images/course-teacher-photo.png" />
                             </div>
                             <h6>Por: Daniel Hernandez</h6>
@@ -148,7 +148,7 @@
                     <div class="seccion-2-item">
                         <a href="#" class="seccion-2-item-content">
                             <div>
-                                <span>Curso</span>
+                                <span>Curso 8</span>
                                 <img src="images/course-teacher-photo.png" />
                             </div>
                             <h6>Por: Daniel Hernandez</h6>
@@ -157,14 +157,15 @@
                         </a>
                     </div>
                 </div>
+                <div id="seccion-2-wrapper-leftshadow" style="display: none;"></div>
+                <div id="seccion-2-wrapper-rightshadow"></div>
             </div>
 
             <div id="seccion-2-paginator-parent">
-                <div id="seccion-2-paginator" page="1" wrap="seccion-2-wrap">
+                <div id="seccion-2-paginator" wrap="seccion-2-wrap" wrapper="seccion-2-wrapper">
                     <button type="button" id="seccion-2-paginator-prev-btn" onclick="clickPrevPaginator(this)"></button>
                     <div id="seccion-2-paginator-pages">
-                        <div class="seccion-2-paginator-page-active"></div>
-                        <div></div>
+                        <!---->
                     </div>
                     <button type="button" id="seccion-2-paginator-next-btn" onclick="clickNextPaginator(this)"></button>
                 </div>
@@ -270,5 +271,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="scripts/seccion2.js"></script>
 </body>
 </html>
