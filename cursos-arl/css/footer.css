@@ -23,6 +23,7 @@ footer::after{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-sizing: content-box;
 }
 .footer-content > p{
     display: block;

@@ -34,13 +34,13 @@
     color: #FFFFFF;
     font-size: 40px;
     font-weight: normal;
-    line-height: normal;
+    line-height: 42px;
     margin-bottom: 20px;
 }
 .seccion-1-row1-content p{
     margin: 0px;
     padding: 0px;
-    font-family: 'SuraSans-Regular';
+    font-family: 'SuraSans-Ligera';
     color: #FFFFFF;
     font-size: 20px;
     font-weight: normal;
@@ -135,6 +135,18 @@
     font-weight: normal;
     line-height: normal;
     text-align: left;
+
+    box-shadow: 0px 0px 0px 0px #0033A040;
+
+    transition: box-shadow 0.2s;
+}
+.seccion1-formgroup input[type=text]:focus,
+.seccion1-formgroup input[type=password]:focus,
+.seccion1-formgroup input[type=email]:focus,
+.seccion-4-formgroup input[type=text]:focus,
+.seccion-4-formgroup input[type=password]:focus,
+.seccion-4-formgroup input[type=email]:focus{
+    box-shadow: 0px 0px 5px 0px #0033A070;
 }
 .seccion1-formgroup input[type=text]::placeholder,
 .seccion1-formgroup input[type=password]::placeholder,
