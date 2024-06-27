@@ -1,0 +1,91 @@
+/**********BARLOW**********/
+
+@font-face {
+    font-family: "Barlow-Black";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts-folder/Barlow-Black.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Barlow-Bold";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts-folder/Barlow-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Barlow-Light";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts-folder/Barlow-Light.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Barlow-Medium";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts-folder/Barlow-Medium.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Barlow-Regular";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts-folder/Barlow-Regular.ttf") format('truetype');
+}
+
+/*************************************************/
+
+@font-face {
+    font-family: "SuraSans-Extranegrita";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts-folder/SuraSans-Extranegrita.otf") format('opentype');
+}
+
+@font-face {
+    font-family: "SuraSans-Fina";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts-folder/SuraSans-Fina.otf") format('opentype');
+}
+
+@font-face {
+    font-family: "SuraSans-Ligera";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts-folder/SuraSans-Ligera.otf") format('opentype');
+}
+
+@font-face {
+    font-family: "SuraSans-Negrita";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts-folder/SuraSans-Negrita.otf") format('opentype');
+}
+
+@font-face {
+    font-family: "SuraSans-Regular";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts-folder/SuraSans-Regular.otf") format('opentype');
+}
+
+@font-face {
+    font-family: "SuraSans-Seminegrita";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts-folder/SuraSans-Seminegrita.otf") format('opentype');
+}

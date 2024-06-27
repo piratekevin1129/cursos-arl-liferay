@@ -1,0 +1,99 @@
+/**********BARLOW**********/
+
+@font-face {
+    font-family: "Barlow-Black";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("/documents/d/dev_kevin/barlow-black") format('truetype');
+}
+
+@font-face {
+    font-family: "Barlow-Bold";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("/documents/d/dev_kevin/barlow-bold") format('truetype');
+}
+
+@font-face {
+    font-family: "Barlow-SemiBold";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("/documents/d/dev_kevin/barlow-semibold") format('truetype');
+}
+
+@font-face {
+    font-family: "Barlow-Light";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("/documents/d/dev_kevin/barlow-light") format('truetype');
+}
+
+@font-face {
+    font-family: "Barlow-Medium";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("/documents/d/dev_kevin/barlow-medium") format('truetype');
+}
+
+@font-face {
+    font-family: "Barlow-Regular";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("/documents/d/dev_kevin/barlow-regular") format('truetype');
+}
+
+/*************************************************/
+
+@font-face {
+    font-family: "SuraSans-Extranegrita";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("/documents/d/dev_kevin/surasans-extranegrita") format('opentype');
+}
+
+@font-face {
+    font-family: "SuraSans-Fina";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("/documents/d/dev_kevin/surasans-fina") format('opentype');
+}
+
+@font-face {
+    font-family: "SuraSans-Ligera";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("/documents/d/dev_kevin/surasans-ligera") format('opentype');
+}
+
+@font-face {
+    font-family: "SuraSans-Negrita";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("/documents/d/dev_kevin/surasans-negrita") format('opentype');
+}
+
+@font-face {
+    font-family: "SuraSans-Regular";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("/documents/d/dev_kevin/surasans-regular") format('opentype');
+}
+
+@font-face {
+    font-family: "SuraSans-Seminegrita";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("/documents/d/dev_kevin/surasans-seminegrita") format('opentype');
+}

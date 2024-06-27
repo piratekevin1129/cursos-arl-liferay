@@ -1,0 +1,198 @@
+#seccion-1{
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    display: block;
+}
+.seccion-1-col{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+.seccion-1-row1{
+    position: relative;
+    width: 57%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: #2D6DF6;
+}
+.seccion-1-row1-content{
+    display: block;
+    width: 530px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+.seccion-1-row1-content h1{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'SuraSans-Negrita';
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.seccion-1-row1-content p{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'SuraSans-Regular';
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 26px;
+}
+.seccion-1-row1-content div{
+    position: relative;
+    width: 450px;
+    margin: 0px;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+.seccion-1-row1-content div img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+                
+.seccion-1-row2{
+    position: relative;
+    width: 43%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.seccion-1-row2-formulario{
+    position: relative;
+    width: 360px;
+    height: auto;
+    margin: 0px;
+    margin-left: 50px;
+}
+
+.seccion-1-row2-formulario h1,
+.seccion-4-form-content h1{
+    font-family: 'SuraSans-Negrita';
+    font-size: 32px;
+    font-weight: normal;
+    line-height: normal;
+    color: #2D6DF6;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.seccion1-formgroup,
+.seccion-4-formgroup{
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 8px;
+}
+.seccion1-formgroup p,
+.seccion-4-formgroup p{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    width: auto;
+
+    font-family: 'SuraSans-Regular';
+    font-size: 14px;
+    color: #2D6DF6;
+    font-weight: normal;
+    line-height: normal;
+    text-align: left;
+    margin-bottom: 4px;
+}
+.seccion1-formgroup input[type=text],
+.seccion1-formgroup input[type=password],
+.seccion1-formgroup input[type=email],
+.seccion-4-formgroup input[type=text],
+.seccion-4-formgroup input[type=password],
+.seccion-4-formgroup input[type=email]
+{
+    outline: none;
+    outline-width: 0;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 45px;
+    border: #0033A0 solid 1px;
+    border-radius: 12px;
+    padding: 0px 12px;
+    background-color: rgba(0,0,0,0);
+
+    font-family: 'SuraSans-Regular';
+    font-size: 16px;
+    color: #0033A0;
+    font-weight: normal;
+    line-height: normal;
+    text-align: left;
+}
+.seccion1-formgroup input[type=text]::placeholder,
+.seccion1-formgroup input[type=password]::placeholder,
+.seccion1-formgroup input[type=email]::placeholder,
+.seccion-4-formgroup input[type=text]::placeholder,
+.seccion-4-formgroup input[type=password]::placeholder,
+.seccion-4-formgroup input[type=email]::placeholder
+{
+    color: #0033A0;
+}
+
+.seccion-1-form-link{
+    display: block;
+    width: 100%;
+    font-family: 'SuraSans-Regular';
+    font-size: 16px;
+    color: #0033A0;
+    font-weight: normal;
+    line-height: normal;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.seccion-1-form-link-underline{
+    text-decoration: underline !important;
+}
+.seccion-1-form-btn-azul,
+.seccion-1-form-btn-amarillo,
+.seccion-4-form-btn-azul{
+    outline: none;
+    outline-width: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 0px;
+    width: 190px;
+    height: 55px;
+    border-radius: 28px;
+    cursor: pointer;
+    
+    border: none;
+    font-family: 'SuraSans-Negrita';
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+.seccion-1-form-btn-azul,
+.seccion-4-form-btn-azul{
+    background-color: #2D6DF6;
+    color: #FFFFFF;
+}
+.seccion-1-form-btn-amarillo{
+    background-color: #E3E829;
+    color: #0033A0;
+}

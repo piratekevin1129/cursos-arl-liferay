@@ -1,0 +1,103 @@
+#seccion-3{
+    position: relative;
+    width: 1130px;
+    margin: 0px auto;
+    padding: 0px;
+    margin-top: 40px;
+}
+
+.seccion-3-col1,
+.seccion-3-col2{
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.seccion-3-col1-row1,
+.seccion-3-col2-row2{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+.seccion-3-col1-row1{width: 480px;}
+.seccion-3-col2-row2{width: 440px;}
+
+.seccion-3-col1-row1 img,
+.seccion-3-col2-row2 img{
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+            
+.seccion-3-col1-row2,
+.seccion-3-col2-row1{
+    position: relative;
+    display: block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.seccion-3-col1-row2{
+    width: 500px;
+    max-width: auto;
+    max-width: calc(100% - 480px);
+    max-width: -moz-calc(100% - 480px);
+    padding-left: 40px;
+}
+.seccion-3-col2-row1{
+    width: 500px;
+    max-width: auto;
+    max-width: calc(100% - 440px);
+    max-width: -moz-calc(100% - 440px);
+    padding-right: 40px;
+}
+
+.seccion-3-col1-row2 h1,
+.seccion-3-col2-row1 h1{
+    display: block;
+    margin: 0px;
+    font-family: 'SuraSans-Negrita';
+    font-size: 32px;
+    color: #2D6DF6;
+    font-weight: normal;
+    line-height: 32px;
+    text-align: left;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+.seccion-3-col1-row2 p,
+.seccion-3-col2-row1 p{
+    display: block;
+    margin: 0px;
+    font-family: 'SuraSans-Regular';
+    font-size: 16px;
+    color: #333F48;
+    font-weight: normal;
+    line-height: normal;
+    text-align: left;
+}
+           
+/**************/
+.seccion-3-col3{
+    position: relative;
+    width: 940px;
+    margin: 0px auto;
+    display: block;
+}
+.seccion-3-col3 h3,
+.seccion-3-col3 p{
+    display: block;
+    margin: 0px;
+    font-family: 'SuraSans-Regular';
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal;
+    text-align: left;
+    padding: 0px;
+}
+.seccion-3-col3 h3{color: #2D6DF6;}
+.seccion-3-col3 p{color: #333F48;}
