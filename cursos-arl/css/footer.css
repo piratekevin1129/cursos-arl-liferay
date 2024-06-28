@@ -17,6 +17,7 @@ footer::after{
 .footer-content{
     position: relative;
     width: 1200px;
+    max-width: 100%;
     height: 56px;
     margin: 0px auto;
     padding-top: 60px;
@@ -70,4 +71,43 @@ footer::after{
     width: 24px;
     height: 24px;
     margin: 0px;
+}
+
+/*************RESPONSIVE************/
+
+/*@media (min-width: 768px) and (max-width: 959px){
+
+}*/
+
+@media (max-width: 519px){
+    footer{
+        margin-top: 30px;
+    }
+    footer::after{
+        height: 40px;
+    }
+    .footer-content{
+        width: 100%;
+        height: 36px;
+        padding-top: 40px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .footer-content > p{
+        text-align: center;
+        padding: 10px 15px;
+        box-sizing: border-box;
+    }
+    .footer-content > div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 10px 15px;
+        box-sizing: border-box;
+    }
+    .footer-content li{
+        margin-left: 7px;
+        margin-right: 7px;
+    }
 }

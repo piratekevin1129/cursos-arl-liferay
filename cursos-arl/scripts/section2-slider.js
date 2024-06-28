@@ -90,9 +90,6 @@ function clickPrevPaginator(btn){
 
 }
 
-function setPagePaginator(){
-    
-}
 
 function setSliderCursos(params){
     var wrap = document.getElementById(params.wrap)

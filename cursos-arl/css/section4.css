@@ -1,6 +1,7 @@
 #seccion-4{
     position: relative;
     width: 1130px;
+    max-width: 100%;
     margin: 0px auto;
     margin-top: 70px;
     box-sizing: border-box;
@@ -130,4 +131,53 @@
 /********/
 .seccion-4-form-btn-azul{
     margin-left: 0px;
+}
+
+/*************RESPONSIVE************/
+
+/*@media (min-width: 768px) and (max-width: 959px){
+
+}*/
+
+@media (max-width: 519px){
+    #seccion-4{
+        position: relative;
+        width: 100%;
+        margin-top: 30px;
+        padding: 20px 20px;
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .seccion-4-col1{
+        width: 100%;
+    }
+    .seccion-4-col2{
+        width: 100%;
+    }
+    .seccion-4-col2 > img{
+        width: 150px;
+        height: auto;
+        margin-bottom: 15px;       
+    }
+
+    #seccion-4-capcha{
+        width: 300px;
+        max-width: 100%;
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .seccion-4-terminos{
+        margin-bottom: 15px;
+    }
+
+    .seccion-4-form-btn-azul{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
